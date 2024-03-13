@@ -1,0 +1,14 @@
+{
+  "project_name": "drf-docker-postgres",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "project_language": "pt-br",
+  "project_timezone": "America/Sao_Paulo",
+  "author": "Matheus Tenório",
+  "postgres_db_name": "db",
+  "postgres_db_user": "djangouser",
+  "postgres_db_password": "changeme",
+  "python_base_image": "python:3.12-alpine3.19",
+  "python_version": "{{ cookiecutter.python_base_image.split(':')[1].split('-')[0] }}",
+  "postgres_base_image": "postgres:16-alpine3.19",
+  "container_user_name": "djangouser"
+}
