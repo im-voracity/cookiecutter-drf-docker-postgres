@@ -15,11 +15,7 @@ docker-compose up.
 
 ## Recommended Changes
 
-1. The first thing to change in this project is the `.env` file. This file contains the environment variables that are used 
-in the project. The `.env` file **IS** committed to the repository by default because it ships with some templating, so 
-remember to go to `.gitignore` and add it, preferably right below line 104.
-
-2. You should also change the versions inside the `requirements.txt` and `requirements.dev.txt` file to the versions you 
+You should change the versions inside the `requirements.txt` and `requirements.dev.txt` file to the versions you 
 want to use in your project.
 
 ## Docs folder
