@@ -1,5 +1,5 @@
 {
-  "project_name": "drf-docker-postgres",
+  "github_repository_name": "drf-docker-postgres",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
   "project_language": "pt-br",
   "project_timezone": "America/Sao_Paulo",
