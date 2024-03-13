@@ -1,4 +1,4 @@
-FROM {{ cookiecutter.base_image }}
+FROM {{ cookiecutter.python_base_image }}
 LABEL maintainer="{{ cookiecutter.author }}"
 
 ENV PYTHONUNBUFFERED 1
