@@ -25,3 +25,4 @@ want to use in your project.
 project and found very useful to use this file to write down the problem and the solution, so I can come back to it later.
 Usually when finishing up my projects, I write them down in a more structured way inside the `README.dev.md` and delete
 this file.
+4. Make sure you go to the `.github/workflows` folder and change the `checks.yml` file to your project's needs.
